@@ -1,0 +1,86 @@
+﻿body
+{
+	background-color: #f9f8f8;
+	margin-left:0px;
+	margin-top:0px;
+}
+.tdpageustbar
+{
+	background-image: url(images/mItemSBack.gif);
+	height: 24px;
+	width: 100%;
+}
+.tdpagesubustbar
+{
+	background-image: url(images/nbGroupHeaderBack.gif);
+	height: 24px;
+	width: 100%;
+}
+.tdcontentbar
+{
+	background-image: url(images/rpContentBack.gif);
+	background-repeat: inherit;
+	height: 600px;
+	width: 100%;
+}
+.TahKucuk
+{
+	font-family: Arial;
+	font-size: 10px;
+	color: Blue;
+}
+.TahBold
+{
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: bold;
+}
+#loading
+{
+	width: 200px;
+	height: 50px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -50px;
+	margin-left: -100px;
+	text-align: center;
+}
+#collapsePanelHeader
+{
+	background-image: url(images/bg_nav.gif);
+}
+.accordionHeader
+{
+	color: #404040;
+	background-image: url(images/nbGroupHeaderBack.gif);
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 5px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+.accordionContent
+{
+	background-color: #D3DEEF;
+	border: none;
+	border-top: none;
+	padding: 0px;
+	padding-top: 0px;
+}
+.accordionLink
+{
+	color: #4f4f4f;
+}
+
+.dxeBase, .dxeEditArea_Glass, .dxbButton, .dxmBase, .dxtcBase, .dxeMemoEditArea, .dxeEditArea
+{
+	font-family: Arial;
+	font-size: 8pt;
+}
+td
+{
+	font-family: Arial;
+	font-size: 8pt;
+}

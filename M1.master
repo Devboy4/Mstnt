@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="M1.master.cs" Inherits="M1" %>
+
+<%@ Register Src="~/controls/olaylistesi.ascx" TagName="olaylistesi" TagPrefix="asp" %>
+<%@ Register Src="~/controls/DataTableControl.ascx" TagName="DataTable" TagPrefix="model" %>
+<%@ Register Assembly="DevExpress.Web.ASPxEditors.v8.3" Namespace="DevExpress.Web.ASPxEditors"
+    TagPrefix="dxe" %>
+<%@ Register Assembly="DevExpress.Web.v8.3" Namespace="DevExpress.Web.ASPxNavBar"
+    TagPrefix="dxnb" %>
+<%@ Register Assembly="DevExpress.Web.ASPxTreeList.v8.3" Namespace="DevExpress.Web.ASPxTreeList"
+    TagPrefix="dxwtl" %>
+<%@ Register Assembly="DevExpress.Web.v8.3" Namespace="DevExpress.Web.ASPxGridView.Export"
+    TagPrefix="dxwgv" %>
+<%@ Register Assembly="DevExpress.Web.v8.3" Namespace="DevExpress.Web.ASPxPanel"
+    TagPrefix="dxp" %>
+<%@ Register Assembly="DevExpress.Web.v8.3" Namespace="DevExpress.Web.ASPxClasses"
+    TagPrefix="dxw" %>
+<%@ Register Assembly="DevExpress.Web.ASPxEditors.v8.3" Namespace="DevExpress.Web.ASPxEditors"
+    TagPrefix="dxe" %>
+<%@ Register Assembly="DevExpress.Web.v8.3" Namespace="DevExpress.Web.ASPxCallback"
+    TagPrefix="dxcb" %>
+<%@ Register Assembly="DevExpress.Web.ASPxGridView.v8.3" Namespace="DevExpress.Web.ASPxGridView"
+    TagPrefix="dxwgv" %>
+<%@ Register Assembly="DevExpress.Web.v8.3" Namespace="DevExpress.Web.ASPxPopupControl"
+    TagPrefix="dxpc" %>
+<%@ Register Assembly="DevExpress.Web.v8.3" Namespace="DevExpress.Web.ASPxMenu" TagPrefix="dxm" %>
+<%@ Register Assembly="DevExpress.Web.v8.3" Namespace="DevExpress.Web.ASPxRoundPanel"
+    TagPrefix="dxrp" %>
+<%@ Register Assembly="DevExpress.Web.v8.3" Namespace="DevExpress.Web.ASPxTabControl"
+    TagPrefix="dxtc" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>DERİDEN MSTNT - CRM</title>
+    <style type="text/css">
+        #bg
+        {
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 60px;
+        }
+        #content
+        {
+            position: relative;
+            z-index: 1;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="ModelCRM.css" />
+    <link rel="stylesheet" type="text/css" href="PreLoad.css" />
+    <script src="../../../PreLoad.js" type="text/javascript"></script>
+    <script src="../../../controls/jquery-1.2.6.js" type="text/javascript"></script>
+    <script src="../../../utils.js" type="text/javascript"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table id="maintable" border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+            <td valign="top">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

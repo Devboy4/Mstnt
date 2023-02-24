@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="DeridenMSTNT">
+</Property><Property Name="Solution File" Value="C:\dosyalar\MSTNT\MSTNTV6\DeridenMSTNT.sln">
+</Property><Property Name="Date" Value="08 Şubat 2015 Pazar">
+</Property><Property Name="Time" Value="10:20">
+</Property></Properties><Event ErrorLevel="2" Project="D:\...\DeridenMSTNT\" Source="D:\Dosyalar\Dosyalar\Model\DeridenMSTNT" Description="Unable to open the Web site 'D:\Dosyalar\Dosyalar\Model\DeridenMSTNT'.  The Web site 'D:\Dosyalar\Dosyalar\Model\DeridenMSTNT' does not exist.">
+</Event><Event ErrorLevel="0" Project="" Source="DeridenMSTNT.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="DeridenMSTNT.sln" Description="Converted">
+</Event></UpgradeLog>

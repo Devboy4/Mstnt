@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MSTNTV6", "C:\Projects\MSTNTV6\", "{2B554AC9-5707-4B5E-AD6F-E86B377A12C0}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/DeridenMSTNT"
+		Debug.AspNetCompiler.PhysicalPath = "..\MSTNTV6\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\DeridenMSTNT\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/DeridenMSTNT"
+		Release.AspNetCompiler.PhysicalPath = "..\MSTNTV6\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\DeridenMSTNT\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52605"
+		SlnRelativePath = "..\MSTNTV6\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B554AC9-5707-4B5E-AD6F-E86B377A12C0}.Debug|.NET.ActiveCfg = Debug|.NET
+		{2B554AC9-5707-4B5E-AD6F-E86B377A12C0}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {851C288D-6AF2-424E-995E-03DA909CDA38}
+	EndGlobalSection
+EndGlobal

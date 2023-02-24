@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetViewState" targetNamespace="http://tempuri.org/DataSetViewState.xsd" xmlns:mstns="http://tempuri.org/DataSetViewState.xsd" xmlns="http://tempuri.org/DataSetViewState.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetViewState" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSetViewState" msprop:Generator_DataSetName="DataSetViewState">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ViewStateData" msprop:Generator_UserTableName="ViewStateData" msprop:Generator_RowDeletedName="ViewStateDataRowDeleted" msprop:Generator_RowChangedName="ViewStateDataRowChanged" msprop:Generator_RowClassName="ViewStateDataRow" msprop:Generator_RowChangingName="ViewStateDataRowChanging" msprop:Generator_RowEvArgName="ViewStateDataRowChangeEvent" msprop:Generator_RowEvHandlerName="ViewStateDataRowChangeEventHandler" msprop:Generator_TableClassName="ViewStateDataDataTable" msprop:Generator_TableVarName="tableViewStateData" msprop:Generator_RowDeletingName="ViewStateDataRowDeleting" msprop:Generator_TablePropName="ViewStateData">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PageURL" msprop:Generator_UserColumnName="PageURL" msprop:Generator_ColumnVarNameInTable="columnPageURL" msprop:Generator_ColumnPropNameInRow="PageURL" msprop:Generator_ColumnPropNameInTable="PageURLColumn" type="xs:string" />
+              <xs:element name="ViewState" msprop:Generator_UserColumnName="ViewState" msprop:Generator_ColumnVarNameInTable="columnViewState" msprop:Generator_ColumnPropNameInRow="ViewState" msprop:Generator_ColumnPropNameInTable="ViewStateColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ViewStateData" />
+      <xs:field xpath="mstns:PageURL" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
